@@ -1,0 +1,5 @@
+print('ola, mundo!')
+print('7''+''4')
+print('ola', '4')
+print('ola' + 4)
+print(ola mundo)
