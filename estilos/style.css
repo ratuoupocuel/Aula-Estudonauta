@@ -1,0 +1,21 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 400;
+}
+
+body {
+
+    color: blue;
+
+}
+
+main {
+
+    background-color: black;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 5px black;
+    padding: 10px;
+
+}
