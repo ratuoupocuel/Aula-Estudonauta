@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> /*aqui é CSS*/
+        body {
+            background-color: rgb(57, 128, 219);
+            color: azure;
+            font: normal 20pt Arial;
+        }
+        h1 {color: yellow;
+        }
+    </style>
+    <title>Aula de Javascript</title>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script> //Essa tag é feita pra programar, no caso aqui é JavaScript
+        
+        //Fiz um exemplo proprio:
+        //**var n1 = window.prompt('qual o seu nome? ')
+        //var n2 = window.prompt('qual sua idade? ')
+        //var n3 = window.prompt('qual o seu peso? ')
+        //window.alert('essas são suas informações: ' + 'nome: '+ n1 + ' idade: '+ n2 + ' peso: ' + n3)
+        
+        var n1 = window.prompt('Digite um número: ') //A NATUREZA DO window.prompt é receber as informações como uma string, mesmo que seja um numero(!!!), visto que o + serve tanto pra adição quanto pra concatenação, ou seja, pro resultado de um var soma ser adição você precisa fazer uma conversão de string pra número)
+        var n2 = window.prompt('digite outro numero: ')
+        var s = n1 + n2 
+        window.alert('a soma dos valores é: '+ s)
+
+        //numeber + number = adição
+        //string + string = concatenação
+
+    </script>
+</body>
+</html>
+
+<!--String é uma cadeia de caracteres, mas também pode ser uma cadeia de números-->
+<!--Pra variavel ser uma String em JavaScript vc precisa colocar ele entre aspas'""-->
