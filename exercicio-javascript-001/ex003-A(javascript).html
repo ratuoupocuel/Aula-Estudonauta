@@ -25,14 +25,15 @@
         //var n3 = window.prompt('qual o seu peso? ')
         //window.alert('essas são suas informações: ' + 'nome: '+ n1 + ' idade: '+ n2 + ' peso: ' + n3)
         
-        var n1 = window.prompt('Digite um número: ') //A NATUREZA DO window.prompt é receber as informações como uma string, mesmo que seja um numero(!!!), visto que o + serve tanto pra adição quanto pra concatenação, ou seja, pro resultado de um var soma ser adição você precisa fazer uma conversão de string pra número)
-        var n2 = window.prompt('digite outro numero: ')
+        var n1 = Number.parseInt(window.prompt('Digite um número: ')) //A NATUREZA DO window.prompt é receber as informações como uma string, mesmo que seja um numero(!!!), visto que o + serve tanto pra adição quanto pra concatenação, ou seja, pro resultado de um var soma ser adição você precisa fazer uma conversão de string pra número inteiro ou real usando o comando Number que tambem pode ser "Number")
+        var n2 = Number.parseInt(window.prompt('digite outro numero: '))
         var s = n1 + n2 
-        window.alert('a soma dos valores é: '+ s)
-
+        window.alert('a soma dos valores é: '+ String(s)) //no resultado final pode converter pra string
         //numeber + number = adição
         //string + string = concatenação
-
+        //Number.parseInt(n1) -> Converter pra Número Inteiro
+        //Number.parseFloat(n2) -> Converter pra Número Real
+        //'e pra convertar numero pra string?' ai usa o comando String(n) ou n.toString()
     </script>
 </body>
 </html>
